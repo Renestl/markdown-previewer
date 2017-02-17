@@ -1,5 +1,9 @@
 import { Component } from '@angular/core';
 
+export class TextEntered {
+  text: string;
+}
+
 @Component({
   selector: 'previewer',
   templateUrl: './app.component.html',
@@ -7,8 +11,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Markdown Previewer';
-  userInput = `Heading
-  [Jennifer Currie](https://freecodecamp.com/renestl)
-  `;
+  userInput: TextEntered = {
+    text: "Testing it out"
+  };
 
 }

@@ -2,4 +2,8 @@
   {{title}}
 </h1>
 
-<textarea name="updateArea" id="" cols="30" rows="10">{{ userInput }}</textarea>
+<textarea value="{{userInput.text}}" name="updateArea" id="" cols="30" rows="10"></textarea>
+
+<input [(ngModel)]="userInput.text" placeholder="Input">
+
+<div>{{ userInput.text }}</div>
