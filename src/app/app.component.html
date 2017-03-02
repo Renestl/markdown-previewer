@@ -4,4 +4,6 @@
 
 <textarea [(ngModel)]="userInput.text" name="updateArea" id="" cols="30" rows="10"></textarea>
 
-<div>{{ userInput.text }}</div>
+<!--<div Markdown>{{ userInput.text }}</div>-->
+
+<markdown [data]="userInput.text"></markdown>
