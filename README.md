@@ -1,4 +1,22 @@
-# Markdown
+# Markdown Editor
+
+A markdown editor written using Angular 2. You can find a live demo at 
+
+User Stories:
+* User Story: I can type GitHub-flavored Markdown into a text area.
+* User Story: I can see a preview of the output of my markdown that is updated as I type.
+* Hint: You don't need to interpret Markdown yourself - you can import the Marked library for this: https://cdnjs.com/libraries/marked
+* Note: If you want to use the React JSX syntax, you need to enable 'Babel' as a preprocessor
+
+Quickstart
+
+Clone repository and cd in to project directory.
+Install dependencies with npm install.
+Run server with npm run go.
+Visit http://localhost:3000 to view the editor.
+
+
+# Original Information
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
 
@@ -29,10 +47,3 @@ Run `ng github-pages:deploy` to deploy to GitHub Pages.
 ## Further help
 
 To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
-
-User Stories:
-* User Story: I can type GitHub-flavored Markdown into a text area.
-* User Story: I can see a preview of the output of my markdown that is updated as I type.
-* Hint: You don't need to interpret Markdown yourself - you can import the Marked library for this: https://cdnjs.com/libraries/marked
-* Note: If you want to use the React JSX syntax, you need to enable 'Babel' as a preprocessor
