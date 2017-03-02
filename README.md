@@ -8,11 +8,11 @@ User Stories:
 * Hint: You don't need to interpret Markdown yourself - you can import the Marked library for this: https://cdnjs.com/libraries/marked
 * Note: If you want to use the React JSX syntax, you need to enable 'Babel' as a preprocessor
 
-Quickstart
+### Installation
 
 Clone repository and cd in to project directory.
 Install dependencies with npm install.
-Run server with npm run go.
+Run server with ng serve.
 Visit http://localhost:3000 to view the editor.
 
 
